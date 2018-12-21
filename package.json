@@ -26,5 +26,8 @@
   "homepage": "https://github.com/lolPants/net-rsa#readme",
   "devDependencies": {
     "eslint": "^5.10.0"
+  },
+  "dependencies": {
+    "node-rsa": "^1.0.2"
   }
 }
