@@ -57,6 +57,9 @@ class RSAServer extends EventEmitter {
     })
   }
 
+  /**
+   * @returns {Promise.<void>}
+   */
   close () {
     return new Promise(resolve => {
       for (const socket of this._clients.keys()) {
