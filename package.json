@@ -1,0 +1,26 @@
+{
+  "name": "net-rsa",
+  "version": "0.1.0",
+  "description": "Client / Server implementation using Node.js net and node-rsa for asymmetric encryption",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lolPants/net-rsa.git"
+  },
+  "keywords": [
+    "net",
+    "rsa",
+    "encryption",
+    "socket",
+    "tcp"
+  ],
+  "author": "Jack Baron <jackmbaron@gmail.com> (https://www.jackbaron.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lolPants/net-rsa/issues"
+  },
+  "homepage": "https://github.com/lolPants/net-rsa#readme"
+}
