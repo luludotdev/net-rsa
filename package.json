@@ -4,7 +4,8 @@
   "description": "Client / Server implementation using Node.js net and node-rsa for asymmetric encryption",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --color src/",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/lolPants/net-rsa/issues"
   },
-  "homepage": "https://github.com/lolPants/net-rsa#readme"
+  "homepage": "https://github.com/lolPants/net-rsa#readme",
+  "devDependencies": {
+    "eslint": "^5.10.0"
+  }
 }
